@@ -1,0 +1,54 @@
+body {
+        background: white;
+}
+#name{
+    min-height: 180px;
+    max-height: 180px;
+    margin-left: 550px;
+
+}
+.container{
+    display: flex;
+    background: white;
+}
+
+.container > li {
+  flex: 1;
+}
+
+#name{
+    font-family: 'Lilita One', cursive;
+    font-family: 'Titan One', cursive;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 900;
+    /* font-size: 50px; */
+}
+
+nav {
+    margin-top: 50px;
+    border-bottom: 5px solid black;
+    width: 100%;
+}
+
+#projects{
+    margin-top: 50px;
+}
+.card {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   border: 1px solid black;
+}
+
+
+
+@media all and (max-width: 600px) {
+
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .container > li {
+    flex-basis: 50%;
+  }
+}
