@@ -33,11 +33,19 @@ nav {
 #projects{
     margin-top: 50px;
 }
+
 .card {
    display: flex;
    flex-wrap: wrap;
    justify-content: space-between;
    border: 1px solid black;
+}
+
+#project-img{
+    min-width: 550px;
+    max-width: 550px;
+    min-height: 300px;
+    max-height: 300px;
 }
 
 
