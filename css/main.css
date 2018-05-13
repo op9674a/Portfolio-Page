@@ -45,6 +45,14 @@ h1 {
     text-align: center;
 }
 
+.top {
+    background-image: url(leaf3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
 .cards-container {
     padding: 0;
     margin: 0 auto;
@@ -68,7 +76,7 @@ h1 {
     flex-direction: column;
     width: 400px;
     height: 400px;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 #title {
@@ -93,8 +101,14 @@ h1 {
 
 #description {
     margin: 0 auto;
-    padding: 5px;
+    padding: 1em;
     text-align: center;
+}
+
+#about {
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
 }
 
 @media all and (max-width: 600px) {
