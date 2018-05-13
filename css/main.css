@@ -1,10 +1,9 @@
 body {
-
-        font-family: 'Gothic A1', sans-serif;
-        font-weight: bold;
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: bold;
 }
 
-#name{
+#name {
     min-height: 135px;
     max-height: 135px;
     min-width: 450px;
@@ -12,9 +11,10 @@ body {
     display: block;
     margin: 0 auto;
 }
-.nav{
+
+.nav {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     padding: 10px;
     border-bottom: 5px solid black;
     width: 100%;
@@ -22,30 +22,30 @@ body {
     align-items: center;
 }
 
-.nav > li {
-  list-style: none;
-  margin: auto;
-  font-size: 30px;
+.nav>li {
+    list-style: none;
+    margin: auto;
+    font-size: 30px;
 }
 
 a:link {
     color: black;
-    text-decoration:none;
+    text-decoration: none;
 }
 
-p a:link{
+p a:link {
     color: #8f4dca;
 }
 
-p a:visited{
+p a:visited {
     color: #aca1ff;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
-.cards-container{
+.cards-container {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -58,7 +58,7 @@ h1{
     display: -moz-flex;
     display: -webkit-flex;
     display: flex;
-    background: rgba(255,224,251, 0.1);
+    background: rgba(255, 224, 251, 0.1);
 }
 
 .card {
@@ -72,29 +72,27 @@ h1{
     margin: 5px;
 }
 
-#title{
-    text-align:center;
+#title {
+    text-align: center;
     font-size: 20px;
     border: 3px solid black;
     background: white;
 }
 
-#content-img{
+#content-img {
     /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; */
-
     margin-bottom: 5px;
     background: white;
 }
 
-#project-img{
+#project-img {
     min-width: 100%;
     max-width: 100%;
     min-height: 300px;
     max-height: 300px;
-
 }
 
 #description {
@@ -106,15 +104,11 @@ h1{
     max-height: 100%;
 }
 
-
 @media all and (max-width: 600px) {
-
-  .container, .cards-container {
-    flex-wrap: wrap;
-  }
-
-  .container > li {
-    flex-basis: 50%;
-  }
-
+    .container, .cards-container {
+        flex-wrap: wrap;
+    }
+    .container>li {
+        flex-basis: 50%;
+    }
 }
