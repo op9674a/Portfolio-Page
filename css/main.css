@@ -111,11 +111,8 @@ h1 {
     width: 500px;
 }
 
-@media all and (max-width: 600px) {
-    .container, .cards-container {
-        flex-wrap: wrap;
-    }
-    .container>li {
-        flex-basis: 50%;
+@media screen and (max-width: 600px) {
+    .nav li:not(:first-child) {
+        display: none;
     }
 }
