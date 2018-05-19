@@ -69,28 +69,33 @@ h1 {
 }
 
 .card {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0 auto;
     overflow: scroll;
     display: flex;
-    flex-direction: column;
-    width: 400px;
-    height: 400px;
+    /* flex-direction: column; */
+    width: 80%;
+    /* height: 400px; */
     margin-top: 35px;
+    box-shadow: -15px 25px 30px -15px grey;
 }
 
 #title {
-    text-align: center;
     font-size: 20px;
     /* border: 0.5px solid black; */
-    background: white;
+    /* background: white; */
     padding: 0.5em;
+    /* margin-left: 50px; */
+    margin-top: 10px;
+    margin: 0 auto;
 }
 
 #content-img {
-    margin-bottom: 5px;
-    background: white;
-    border-top: 1px solid black;
+    margin: 15px 0 15px 15px;
+    background: rgba(255, 224, 251, 0.1);
+    min-width: 35%;
+    max-width: 35%;
+    /* border-top: 1px solid black; */
 }
 
 #project-img {
@@ -101,9 +106,10 @@ h1 {
 }
 
 #description {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 1em;
-    text-align: center;
+    text-align: left;
+    margin-top: 1%;
 }
 
 #about {
